@@ -380,7 +380,6 @@ async def async_start(  # noqa: C901
 
             async_process_discovery_payload(component, discovery_id, discovery_payload)
 
-
     @callback
     def async_process_discovery_payload(
         component: str, discovery_id: str, payload: MQTTDiscoveryPayload
