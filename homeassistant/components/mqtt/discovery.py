@@ -40,8 +40,8 @@ from .const import (
     DOMAIN,
     SUPPORTED_COMPONENTS,
 )
-from .device import DEVICE_DISCOVERY_SCHEMA, MQTT_ORIGIN_INFO_SCHEMA, SHARED_OPTIONS
 from .models import MqttComponentConfig, MqttOriginInfo, ReceiveMessage
+from .schemas import DEVICE_DISCOVERY_SCHEMA, MQTT_ORIGIN_INFO_SCHEMA, SHARED_OPTIONS
 from .util import async_forward_entry_setup_and_setup_discovery, get_mqtt_data
 
 _LOGGER = logging.getLogger(__name__)
